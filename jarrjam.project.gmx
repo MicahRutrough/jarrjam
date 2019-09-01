@@ -7,12 +7,23 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_character_idle</sprite>
-    <sprite>sprites\spr_character_mask</sprite>
+    <sprite>sprites\spr_character_slide</sprite>
     <sprite>sprites\spr_character_jump</sprite>
+    <sprite>sprites\spr_character_walljump</sprite>
     <sprite>sprites\spr_character_walk</sprite>
+    <sprite>sprites\spr_character_mask</sprite>
+    <sprite>sprites\spr_block</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_character</object>
+    <object>objects\obj_block</object>
+    <object>objects\par_solid</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
